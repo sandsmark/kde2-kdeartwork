@@ -14,7 +14,7 @@
 #include <qbitmap.h>
 #include <qtabbar.h>
 #include <qobjectlist.h>
-#include "../highcolor/paperbits.h"
+#include "../kstep-highcolor/paperbits.h"
 
 
 #define QCOORDARRLEN(x) sizeof(x)/(sizeof(QCOORD)*2)
