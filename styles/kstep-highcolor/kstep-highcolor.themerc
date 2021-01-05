@@ -1,0 +1,33 @@
+[Misc]
+Name=KDE Step Hi-color
+Name[af]=KDE STEP Hi-color
+Name[bg]=KDE Steр Hi-сolor
+Name[cs]=KDE Step (mnohobarevný)
+Name[de]=KDE-Step (64000 Farben)
+Name[eo]=KDE-Step multkolora
+Name[es]=KDE Step de alta profundidad
+Name[et]=KDE Step paljuvärviline
+Name[fi]=KDE Step moniväri
+Name[fr]=KDE Step très coloré
+Name[hu]=KDE Step (színgazdag)
+Name[is]=KDE Step í hálit
+Name[it]=KDE Step Molti colori
+Name[ja]=KDE Step ハイカラー
+Name[ko]=KDE 스텝 (많은 색)
+Name[lt]=KDE Step daug spalvų
+Name[lv]=KDE Solis Augstkrāsu
+Name[mt]=KDE Step b'ħafna kuluri
+Name[nl]=KDE Step hoge kleuren
+Name[no_NY]=KDE-Step mange fargar
+Name[pl]=KDE Step (dużo kolorów)
+Name[pt_BR]=KDE Step Muitas Cores
+Name[pt]=KDE Step Muitas Cores
+Name[sk]=KDE Step veľa farieb
+Name[sl]=Raznobarvni KDE Step
+Name[sv]=KDE Step färgrik
+Name[ta]=KDE Step ¯Â÷¿¢Èõ
+Name[tr]=KDE Step Yüksek Renk
+Name[uk]=KDE Step (висококольоровий)
+Name[zh_CN.GB2312]=KDE Step 高色彩
+[KDE]
+widgetStyle=kstephighcolor.la

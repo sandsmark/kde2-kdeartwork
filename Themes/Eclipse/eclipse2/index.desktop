@@ -1,0 +1,119 @@
+[KDE Icon Theme]
+Name=Eclipse
+Name[af]=EKLIPSE
+Name[cs]=Zatmění
+Name[da]=Eklipse
+Name[eo]=Eklipso
+Name[fi]=Pimennys
+Name[fr]=Éclipse
+Name[is]=Sólmyrkvi
+Name[it]=Eclisse
+Name[lt]=Užtemimas
+Name[lv]=Elipse
+Name[mt]=Ekliss
+Name[nl]=Eclips
+Name[no]=Eklipse
+Name[pl]=Zaćmienie
+Name[ru]=Затмение
+Name[sv]=Förmörkelse
+Name[tr]=Tutulma
+Name[uk]=Затемнення
+Name[wa]=Eclipe
+Name[zh_CN.GB2312]=日蚀
+Description=Eclipse Icons by Hagen Hoepfner
+Description[af]=EKLIPSE IKOONE DEUR HAGEN HOEPFNER
+Description[cs]=Ikony Eclipse od Hagena Hoepfnera
+Description[da]=Eklipse Ikoner ved Hagen Hoepfner
+Description[de]=Eclipse-Symbole von Hagen Höpfner
+Description[eo]=Eklipso-piktogramoj de Hagen Hoepfner
+Description[es]=Iconos Eclipse por Hagen Hoepfner
+Description[et]=Eclipse ikoonid Hagen Hoepfner'lt
+Description[fi]=Pimennys kuvakkeet tehnyt Hagen Hoepfner
+Description[fr]=Icônes «Éclipse» par Hagen Hoepfner
+Description[hu]=Eclipse ikonok - Hagen Hoepfner
+Description[is]=Eclipse táknmyndir eftir Hagen Hoepfner
+Description[it]=Icone "eclisse" di Hagen Hoepfner
+Description[ja]=Hagen Hoepfnerの手によって作られたEclipseアイコン
+Description[lt]=Hagen Hoepfner užtemimo piktogramos
+Description[lv]=Elipses Ikonas no Hagen Hoepfner
+Description[mt]=Ikoni Ekliss ta' Hagen Hoepfner
+Description[nl]=Eclipspictogrammen, Hagen Hoepfner
+Description[no_NY]=Eclipse-ikon av Hagen Hoepfner
+Description[pl]=Ikony Zaćmienia autorstwa Hagena Hoepfnera
+Description[pt_BR]=Ícones Eclipse de Hagen Hoepfner
+Description[pt]=Ícones Eclipse de Hagen Hoepfner
+Description[ru]=Иконки затмения от Hagen Hoepfner
+Description[sk]=Ikony Eclipse od Hagena Hoepfnera
+Description[sl]=Ikone Eclipse izdelal Hagen Hoepfner
+Description[sv]=Förmörkelseikoner av Hagen Hoepfner
+Description[tr]=Tutulma Simgeleri, Hagen Hoepfner' dan
+Description[uk]=Піктограми 'Затемнення' від Hagen Hoepfner
+Description[zh_CN.GB2312]=Hange Hoepfner 的月食图标
+DisplayDepth=32
+Example=exec
+Inherits=hicolor
+DesktopDefault=32
+DesktopSizes=16,22,32
+SmallDefault=16
+SmallSizes=16
+Directories=16x16/apps,16x16/actions,16x16/devices,16x16/filesystems,16x16/mimetypes,22x22/apps,22x22/actions,22x22/devices,22x22/filesystems,22x22/mimetypes,32x32/apps,32x32/actions,32x32/devices,32x32/filesystems,32x32/mimetypes,
+[16x16/apps]
+Size=16
+Context=Applications
+Type=Fixed
+[16x16/actions]
+Size=16
+Context=Actionsd
+Type=Fixed
+[16x16/devices]
+Size=16
+Context=Devices
+Type=Fixed
+[16x16/filesystems]
+Size=16
+Context=FileSystems
+Type=Fixed
+[16x16/mimetypes]
+Size=16
+Context=MimeTypes
+Type=Fixed
+[22x22/apps]
+Size=22
+Context=Applications
+Type=Fixed
+[22x22/actions]
+Size=22
+Context=Actionsd
+Type=Fixed
+[22x22/devices]
+Size=22
+Context=Devices
+Type=Fixed
+[22x22/filesystems]
+Size=22
+Context=FileSystems
+Type=Fixed
+[22x22/mimetypes]
+Size=22
+Context=MimeTypes
+Type=Fixed
+[32x32/apps]
+Size=32
+Context=Applications
+Type=Fixed
+[32x32/actions]
+Size=32
+Context=Actionsd
+Type=Fixed
+[32x32/devices]
+Size=32
+Context=Devices
+Type=Fixed
+[32x32/filesystems]
+Size=32
+Context=FileSystems
+Type=Fixed
+[32x32/mimetypes]
+Size=32
+Context=MimeTypes
+Type=Fixed

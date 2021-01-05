@@ -1,0 +1,7 @@
+usr/share/apps/kstyle/themes/b3.themerc
+usr/share/apps/kstyle/themes/ksgistyle.themerc
+usr/share/apps/kstyle/themes/kstep-highcolor.themerc
+usr/lib/b3style.*
+usr/lib/ksgistyle.*
+usr/lib/kstephighcolor.*
+usr/share/lintian/overrides/kdeartwork-style

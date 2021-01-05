@@ -1,0 +1,149 @@
+[General]
+Name=Eclipse
+Name[af]=EKLIPSE
+Name[cs]=Zatmění
+Name[da]=Eklipse
+Name[eo]=Eklipso
+Name[fi]=Pimennys
+Name[fr]=Éclipse
+Name[is]=Sólmyrkvi
+Name[it]=Eclisse
+Name[lt]=Užtemimas
+Name[lv]=Elipse
+Name[mt]=Ekliss
+Name[nl]=Eclips
+Name[no]=Eklipse
+Name[pl]=Zaćmienie
+Name[ru]=Затмение
+Name[sv]=Förmörkelse
+Name[tr]=Tutulma
+Name[uk]=Затемнення
+Name[wa]=Eclipe
+Name[zh_CN.GB2312]=日蚀
+author=Hagen Hoepfner
+email=hoepfner@iti.cs.uni-magdeburg.de
+info=http://wwwiti.cs.uni-magdeburg.de/~hoepfner/
+description=An dark sun for KDE 2.1
+version=2.1
+Comment=An icon theme by Hagen Hoepfner
+Comment[af]='N IKOON TEMA DEUR HAGEN HOEPFNER
+Comment[cs]=Motiv ikon od Hagena Hoepfnera
+Comment[da]=Et ikon tema af Hagen Hoepfner
+Comment[de]=Ein Symboldesign von Hagen Höpfner
+Comment[eo]=Piktogrametoso de Hagen Hoepfner
+Comment[es]=Un tema de iconos por Hagen Hoepfner
+Comment[et]=Ikoonide teema Hagen Hoepfner'lt
+Comment[fi]=Kuvaketeema, tekijä Hagen Hoepfner
+Comment[fr]=Un thème d'icônes par Hagen Hoepfner
+Comment[hu]=Hagen Hoepfner egy ikontémája
+Comment[is]=Táknmyndaþema eftir Hagen Hoepfner
+Comment[it]=Un tema di icone di Hagen Hoepfner
+Comment[ja]=Hagen Hoepfnerの手によるアイコンテーマ
+Comment[lt]=Hagen Hoepfner piktogramų tema
+Comment[lv]=Ikonu tēma no Hagen Hoepfner
+Comment[mt]=Tema ta' ikoni ta' Hagen Hoepfner
+Comment[nl]=een pictogramthema door Hagen Hoepfner
+Comment[no_NY]=Eit ikontema av Hagen Hoepfner
+Comment[pl]=Motyw ikon autorstwa Hagena Hoepfnera
+Comment[pt_BR]=Um tema de ícones por Hagen Hoepfner
+Comment[pt]=Um tema de ícones de Hagen Hoepfner
+Comment[ru]=Тема иконок от Hagen Hoepfner
+Comment[sk]=Téma ikon od Hagena Hoepfnera
+Comment[sl]=Tema ikon Hagena Hoepfnerja
+Comment[sv]=Ett ikontema av Hagen Hoepfner
+Comment[tr]=Bir simge teması, Hagen Hoepfner' dan
+Comment[uk]=Тема піктограм від Hagen Hoepfner
+Comment[zh_CN.GB2312]=Hange Hoepfner 的图标主题
+[Icons]
+Icons=eclipse2
+
+#
+#-----------------------------------------------------------------------------
+[Panel]
+background=panel.png
+#
+#-----------------------------------------------------------------------------
+[Display]
+CommonDesktop=true
+Wallpaper0=bg.jpg
+WallpaperMode0=Scaled
+NormalTextColor=255,255,255
+RootIconTextForeground=255,255,255
+RootIconTextBackground=0,0,0
+#
+#-----------------------------------------------------------------------------
+[Colors]
+foreground=0,0,0
+selectForeground=255,255,255
+activeBlend=0,0,0
+selectBackground=164,151,132
+inactiveBackground=0,0,0
+background=180,167,145
+activeBackground=122,112,94
+inactiveBlend=213,197,172
+inactiveForeground=175,180,159
+activeForeground=255,255,255
+windowForeground=0,0,0
+windowBackground=255,255,255
+contrast=5
+#
+#-----------------------------------------------------------------------------
+[Window Border]
+[Window Border]
+shapePixmapTop=wm_top.png
+shapePixmapBottom=wm_bottom.png
+shapePixmapLeft=wm_left.png
+shapePixmapRight=wm_right.png
+shapePixmapTopLeft=wm_topleft.png
+shapePixmapTopRight=wm_topright.png
+shapePixmapBottomLeft=wm_bottomleft.png
+shapePixmapBottomRight=wm_bottomright.png
+#-----------------------------------------------------------------------------
+[Window Titlebar]
+CloseButton=close.png
+MaximizeButton=maximize.png
+MaximizeDownButton=maximizedown.png
+MinimizeButton=iconify.png
+MenuButton=menu.png
+StickyButton=pinup.png
+StickyDownButton=pindown.png
+#
+#-----------------------------------------------------------------------------
+[Window Button Layout]
+ButtonA=Menu
+ButtonB=Sticky
+ButtonC=Off
+ButtonD=Close
+ButtonE=Maximize
+ButtonF=Iconify
+#
+#-----------------------------------------------------------------------------
+[Sounds]
+Desktop1=eclipse.switchdesk.wav
+Desktop2=eclipse.switchdesk.wav
+Desktop3=eclipse.switchdesk.wav
+Desktop4=eclipse.switchdesk.wav
+Desktop5=eclipse.switchdesk.wav
+Desktop6=eclipse.switchdesk.wav
+Desktop7=eclipse.switchdesk.wav
+Desktop8=eclipse.switchdesk.wav
+Logout=
+LogoutMessage=eclipse.LogoutMessage.wav
+Startup=eclipse.Startup.wav
+WindowActivate=
+WindowClose=eclipse.WindowClose.wav
+WindowDeIconify=eclipse.WindowDeIconify.wav
+WindowIconify=eclipse.WindowIconify.wav
+WindowMaximize=eclipse.WindowMaximize.wav
+WindowMoveEnd=
+WindowMoveStart=
+WindowOpen=eclipse.WindowOpen.wav
+WindowResizeEnd=
+WindowResizeStart=
+WindowShadeDown=eclipse.WindowShadeDown.wav
+WindowShadeUp=eclipse.WindowShadeUp.wav
+WindowSticky=eclipse.WindowSticky.wav
+WindowTransDelete=
+WindowTransNew=
+WindowUnMaximize=eclipse.WindowUnMaximize.wav
+WindowUnSticky=eclipse.WindowUnSticky.wav

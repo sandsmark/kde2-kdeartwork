@@ -1,0 +1,84 @@
+--- admin/Makefile.common	2001/07/17 05:16:52	1.118
++++ admin/Makefile.common	2001/07/29 13:29:07
+@@ -92,22 +92,32 @@ cvs-clean:
+ 	pwd=`pwd` ;\
+ 	dirs=`find . -type d | grep -v CVS | sed -e "s#^./##"` ;\
+ 	for i in $$dirs; do \
+-	  if test ! -d "$$pwd/$$i/CVS"; then \
+-	    echo "D $$i" ;\
+-	    rm -rf "$$pwd/$$i"; \
+-	    continue; \
+-	  fi ;\
+-	  cd $$pwd/$$i ;\
+-	  for f in * .*; do \
+-	    if test ! -d "$$f"; then \
+-	      if grep "^/$$f/" CVS/Entries > /dev/null; then \
+-		a="b"; \
+-	      else \
+-	        echo "F $$i/$$f"; \
+-		rm -f "$$pwd/$$i/$$f"; \
+-	      fi; \
+-	    fi ; \
+-	  done; \
++	  case "$$i" in \
++	    debian) \
++		  echo "Ignoring files in $$i"; \
++		;; \
++		*/HTML) \
++		  echo "Ignoring files in $$i"; \
++		;; \
++		*) \
++	      if test ! -d "$$pwd/$$i/CVS"; then \
++	        echo "D $$i" ;\
++	        rm -rf "$$pwd/$$i"; \
++	        continue; \
++	      fi ;\
++	      cd $$pwd/$$i ;\
++	      for f in * .*; do \
++	        if test ! -d "$$f"; then \
++	          if grep "^/$$f/" CVS/Entries > /dev/null; then \
++		    a="b"; \
++	          else \
++	            echo "F $$i/$$f"; \
++		    rm -f "$$pwd/$$i/$$f"; \
++	          fi; \
++	        fi ; \
++	      done; \
++	    ;; \
++	  esac; \
+ 	done
+ 
+ 
+--- styles/b3plugin/Makefile.am	2001/06/09 10:35:40	1.8
++++ styles/b3plugin/Makefile.am	2001/07/29 13:29:08
+@@ -22,7 +22,7 @@ INCLUDES= $(all_includes) 
+ 
+ noinst_HEADERS = b3style.h 
+ lib_LTLIBRARIES = b3style.la
+-b3style_la_LDFLAGS = $(all_libraries) -module  -avoid-version -no-undefined 
++b3style_la_LDFLAGS = $(all_libraries) -module -no-undefined 
+ b3style_la_LIBADD = $(LIB_KDECORE)
+ 
+ b3style_la_SOURCES = b3style.cpp plugin.cpp
+--- styles/ksgistyle/Makefile.am	2001/06/09 10:22:53	1.2
++++ styles/ksgistyle/Makefile.am	2001/07/29 13:29:08
+@@ -2,7 +2,7 @@ INCLUDES= $(all_includes)
+ METASOURCES=AUTO
+ noinst_HEADERS = ksgistyle.h
+ lib_LTLIBRARIES = ksgistyle.la
+-ksgistyle_la_LDFLAGS = $(all_libraries) -module -avoid-version -no-undefined
++ksgistyle_la_LDFLAGS = $(all_libraries) -module -no-undefined
+ ksgistyle_la_SOURCES = ksgistyle.cpp plugin.cpp
+ ksgistyle_la_LIBADD = $(LIB_KDEUI) 
+ 
+--- styles/kstep-highcolor/Makefile.am	2001/06/09 10:22:19	1.2
++++ styles/kstep-highcolor/Makefile.am	2001/07/29 13:29:08
+@@ -23,7 +23,7 @@ INCLUDES= $(all_includes)
+ 
+ noinst_HEADERS = kstep.h 
+ lib_LTLIBRARIES = kstephighcolor.la
+-kstephighcolor_la_LDFLAGS =  $(all_libraries) -module  -avoid-version -no-undefined 
++kstephighcolor_la_LDFLAGS =  $(all_libraries) -module -no-undefined 
+ kstephighcolor_la_LIBADD = $(LIB_KDEUI)
+ kstephighcolor_la_SOURCES = kstep.cpp plugin.cpp
+ 

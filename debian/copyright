@@ -1,0 +1,52 @@
+This package was debianized by Ben Burton <benb@acm.org> on
+Tue, 22 May 2001 01:53:05 -0500.
+
+It was downloaded via CVS from cvs.kde.org.
+
+Upstream Authors:
+
+  B3Style: Daniel M. Duley <mosfet@kde.org>
+  Eclipse: Hagen Hoepfner <hoepfner@iti.cs.uni-magdeburg.de>
+  MenschMaschine: <kraftw@gmx.de>
+  Model: <kraftw@gmx.de>
+  Technical: Antialias <antialias@b2mail.dk>
+
+Copyright:
+
+  All components of this package are released under the GNU General
+  Public License, with the exception of the B3 widget style which is
+  released under a BSD-like license.
+
+  On Debian GNU/Linux systems, the complete text of the GNU General
+  Public License can be found in `/usr/share/common-licenses/GPL'.
+
+  --------------------
+
+  B3 widget style:
+
+  B3Style is 99.99% based on B2Style
+  B2Style (C)2000 Daniel M. Duley <mosfet@kde.org>
+
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the
+     distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+  OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+  SUCH DAMAGE.

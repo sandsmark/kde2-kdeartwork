@@ -1,0 +1,113 @@
+[KDE Icon Theme]
+Comment=Icon Theme by Antialias - antialias@b2mail.dk
+Comment[af]=IKOON TEMA DEUR ANTI-ALIAS - ANTI-ALIAS@b2mail.DK
+Comment[cs]=Motiv ikon od Antialias - antialias@b2mail.dk
+Comment[da]=Ikontema af Antialias - antialias@b2mail.dk
+Comment[de]=Ein Symboldesign von Antialias - antialias@b2mail.dk
+Comment[eo]=Piktogrametoso de Antialias - antialias@b2mail.dk
+Comment[es]=Tema de iconos por Antialias - antialias@b2mail.dk
+Comment[et]=Ikooniteema Antialias'elt - antialias@b2mail.dk
+Comment[fi]=Kuvaketeema, tekijä Antialias - antialias@b2mail.dk
+Comment[fr]=Thème d'icônes par Antialias (antialias@b2mail.dk)
+Comment[hu]=Ikontéma - készítette: Antialias (antialias@b2mail.dk)
+Comment[is]=Táknmyndaþema eftir Antialias - antialias@b2mail.dk
+Comment[it]=Tema icone di Antialias - antialias@b2mail.dk
+Comment[ja]=アイコンテーマ by Antialias - antialias@b2mail.dk
+Comment[lt]=Antialias <antialias@b2mail.dk> piktogramų tema
+Comment[lv]=Ikonu Tēma no Antialias - antialias@b2mail.dk
+Comment[mt]=Tema ta' ikoni ta' Antialias - antialias@b2mail.dk
+Comment[nl]=pictogramthema door Antialias - antialias@b2mail.dk
+Comment[no_NY]=Ikontema av Antialias - antialias@b2mail.dk
+Comment[pl]=Motyw ikon autorstwa Antialiasa - antialias@b2mail.dk
+Comment[pt_BR]=Tema de ícones do Antialias - antialias@b2mail.dk
+Comment[pt]=Tema de ícones do Antialias - antialias@b2mail.dk
+Comment[ru]=Тема с иконками от Antialias - antialias@b2mail.dk
+Comment[sk]=Téma ikon od Antialias - antialias@b2mail.dk
+Comment[sl]=Tema ikon Antialiasa - antialias@b2mail.dk
+Comment[sv]=Ikontema av Antialias - antialias@b2mail.dk
+Comment[tr]=Simge Teması, Antialias' dan - antialias@b2mail.dk
+Comment[uk]=Тема піктограм від Antialias - antialias@b2mail.dk
+Comment[zh_CN.GB2312]=Antialias 的图标主题 - antialias@b2mail.dk
+DesktopDefault=32
+DesktopSizes=16,32,48,
+Directories=32x32/actions,32x32/filesystems,32x32/mimetypes,48x48/filesystems,48x48/mimetypes,
+DisplayDepth=32
+Example=exec
+Inherits=hicolor
+LinkOverlay=link
+LockOverlay=lockoverlay
+MainToolbarDefault=32
+MainToolbarSizes=16,22,32,
+Name=Technical-1
+Name[az]=Texniki-1
+Name[bg]=Технически-1
+Name[cs]=Technické - 1
+Name[eo]=Teknika 1
+Name[es]=Técnico-1
+Name[et]=Tehniline-1
+Name[fr]=Technique-1
+Name[hu]=Technikai-1
+Name[is]=Tækni 1
+Name[it]=Tecnico-1
+Name[ja]=テクニカル-1
+Name[lt]=Techninė-1
+Name[lv]=Tehnisks-1
+Name[mt]=Tekniku 1
+Name[nl]=Technisch-1
+Name[no_NY]=Teknisk-1
+Name[pl]=Techniczny-1
+Name[pt_BR]=Técnico-1
+Name[pt]=Técnico-1
+Name[sk]=Technické-1
+Name[sl]=Tehnično-1
+Name[sv]=Teknik-1
+Name[ta]=¦¾¡Æ¢ÑðÀ-1
+Name[tr]=Teknik-1
+Name[uk]=Технічна-1
+Name[zh_CN.GB2312]=工艺-1
+SmallDefault=16
+SmallSizes=16
+ToolbarDefault=22
+ToolbarSizes=16,22,32,
+PanelDefault=32
+PanelSizes=16,32,48
+ZipOverlay=zip
+
+[32x32/actions]
+Context=Actions
+MaxSize=32
+MinSize=16
+Size=32
+Type=Scalable
+[32x32/filesystems]
+Context=FileSystems
+Size=32
+MaxSize=32
+MinSize=16
+Type=Scalable
+[32x32/mimetypes]
+Context=MimeTypes
+Size=32
+MaxSize=32
+MinSize=16
+Type=Scalable
+[48x48/filesystems]
+Context=FileSystems
+Size=48
+Type=Fixed
+[48x48/mimetypes]
+Context=MimeTypes
+Size=48
+Type=Fixed
+[Desktop Entry]
+Icon=
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+Source: kdeartwork
+Section: graphics
+Priority: optional
+Maintainer: Ben Burton <benb@acm.org>
+Build-Depends: automake, debhelper (>> 3.0.0), kdelibs-dev (>= 4:2.2-cvs20010602-0), libtool
+Standards-Version: 3.5.6
+
+Package: kdeartwork-style
+Architecture: any
+Section: graphics
+Depends: ${shlibs:Depends}
+Recommends: kdebase (>> 4:2.1-final-0)
+Conflicts: kdebase (<< 4:2.2-cvs20010622-0)
+Description: widget styles released with KDE
+ This package contains the widget styles that come with the official KDE
+ release.  Widget styles can be used to customise the look and feel of
+ interface components such as buttons, scrollbars and so on.  They
+ can be applied using the style manager in the KDE Control Centre.
+ .
+ Included are widget styles B3, KDE-SGI and KDE Step Hi-color.
+ .
+ This package is part of the KDE artwork module.
+
+Package: kdeartwork-misc
+Architecture: all
+Section: sound
+Recommends: kdebase (>> 4:2.1-final-0)
+Description: various multimedia goodies released with KDE
+ This package contains miscellaneous multimedia goodies that come with
+ the official KDE release.  They can be applied to your desktop through
+ the KDE Control Centre.
+ .
+ Included are KDE sounds.
+ .
+ This package is part of the KDE artwork module.
+
+Package: kdeartwork-theme-desktop
+Architecture: all
+Section: graphics
+Recommends: kdebase (>> 4:2.1-final-0)
+Conflicts: kdebase (<< 4:2.2-alpha2-0)
+Description: desktop themes released with KDE
+ This package contains the desktop themes that come with the official KDE
+ release.  Desktop themes can be used to customise colours, icons, sounds,
+ wallpapers, window decorations and more.  They can be applied using the
+ theme manager in the KDE Control Centre.
+ .
+ Included are desktop theme Eclipse and icon themes Locolor and Technical.
+ .
+ This package is part of the KDE artwork module.
+
+Package: kdeartwork-theme-window
+Architecture: all
+Section: graphics
+Recommends: kdebase (>> 4:2.2-alpha2-0)
+Description: window decoration themes released with KDE
+ This package contains the window decoration themes that come with the
+ official KDE release.  Window decoration themes can be used to customise
+ the look of window borders and buttons, and can be applied using the
+ window decoration manager or the theme manager in the KDE Control Centre.
+ .
+ To apply the IceWM themes included in this package, select IceWM in the
+ window decoration manager and use the Configure tab to select which
+ specific IceWM theme you want.
+ .
+ Included are IceWM window decoration themes MenschMaschine and Model.
+ .
+ This package is part of the KDE artwork module.
